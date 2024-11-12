@@ -1,31 +1,37 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     background-image: url("bg.jpg");
-    background-size: 100%;
+    background-size: cover; /* Changed to cover for better responsiveness */
     color: white;
     font-family: 'Mulish', sans-serif;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     justify-content: space-around;
     margin-top: 30px;
 }
-nav h1{
+
+nav h1 {
     font-size: 50px;
     font-family: 'Lato', sans-serif;
 }
-nav span{
+
+nav span {
     color: rgb(241, 11, 11);
 }
-ul{
+
+ul {
     display: flex;
     list-style: none;
 }
-ul button{
+
+ul button {
     width: 100px;
     height: 34px;
     background-color: rgb(244, 11, 11);
@@ -33,30 +39,36 @@ ul button{
     font-size: 18px;
     border: none;
 }
-ul li{
+
+ul li {
     margin-inline: 30px;
     font-size: 25px;
 }
-ul li a:hover{
+
+ul li a:hover {
     border-bottom: 4px solid rgb(14, 14, 241);
     border-radius: 3px;
     margin-top: 2px;
     cursor: pointer;
     font-size: 27px;
 }
-.text{
+
+.text {
     margin-left: 7%;
     margin-top: 120px;
 }
-.text h1{
+
+.text h1 {
     font-size: 100px;
     font-family: 'Lato', sans-serif;
 }
-.text p{
+
+.text p {
     font-size: 27px;
     margin-top: 20px;
 }
-.text button{
+
+.text button {
     width: 170px;
     height: 44px;
     background-color: rgb(234, 8, 8);
@@ -65,9 +77,66 @@ ul li a:hover{
     margin-top: 50px;
     font-size: 25px;
 }
-.text button:hover{
+
+.text button:hover {
     border: 3px solid white;
     background-color: rgb(242, 54, 54);
     cursor: pointer;
+}
 
+@media (max-width: 768px) {
+    nav h1 {
+        font-size: 40px; 
+    }
+
+    ul li {
+        margin-inline: 15px; 
+        font-size: 20px; 
+    }
+
+    .text {
+        margin-left: 5%; 
+        margin-top: 80px; 
+    }
+
+    .text h1 {
+        font-size: 70px;
+    }
+
+    .text p {
+        font-size: 22px;
+    }
+
+    .text button {
+        width: 150px; 
+        font-size: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    nav h1 {
+        font-size: 30px; 
+    }
+
+    ul li {
+        font-size: 18px; 
+    }
+
+    .text {
+        margin-left: 0; 
+        margin-top: 50px; 
+    }
+
+    .text h1 {
+        font-size: 50px; 
+    }
+
+    .text p {
+        font-size: 18px; 
+    }
+
+    .text button {
+        width: 100%;
+        font-size: 18px; 
+    }
 }
