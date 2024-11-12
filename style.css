@@ -5,15 +5,14 @@
 
 body {
     background-image: url("bg.jpg");
-    background-size: cover; /* Changed to cover for better responsiveness */
+    background-size: cover; 
     color: white;
     font-family: 'Mulish', sans-serif;
 }
 
 nav {
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: space-around; 
     margin-top: 30px;
 }
 
@@ -100,11 +99,11 @@ ul li a:hover {
     }
 
     .text h1 {
-        font-size: 70px;
+        font-size: 70px; 
     }
 
     .text p {
-        font-size: 22px;
+        font-size: 22px; 
     }
 
     .text button {
@@ -118,7 +117,14 @@ ul li a:hover {
         font-size: 30px; 
     }
 
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
     ul li {
+        margin-inline: 0;
+        margin-bottom: 10px;
         font-size: 18px; 
     }
 
@@ -136,7 +142,7 @@ ul li a:hover {
     }
 
     .text button {
-        width: 100%;
+        width: 100%; 
         font-size: 18px; 
     }
 }
