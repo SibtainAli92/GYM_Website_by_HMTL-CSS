@@ -3,29 +3,357 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EliteFit - Transform Your Body, Transform Your Life</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <h1><span>Fit</span> and <span>Fine</span></h1>
-        <ul>
-            <li><a>HOME</a></li>
-            <li><a>OFFER</a></li>
-            <li><a>NEAR GYM</a></li>
-            <li><a>CONTACT</a></li>
-            <button>Learn More</button>
-        </ul>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1><span>Elite</span>Fit</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <button class="nav-cta">Get Started</button>
+        </div>
     </nav>
 
-    <div class="contanier">
-        <div class="text">
-            <h1>Fitness Club</h1>
-            <p>If you want something you've never had, you must be willing <br>
-                to do something you've never done 
-            </p>
-            <button>Join Now</button>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">🏆 #1 Fitness Destination</span>
+                <h1 class="hero-title">Transform Your Body, <span class="highlight">Transform Your Life</span></h1>
+                <p class="hero-description">Join thousands of members who have achieved their fitness goals. State-of-the-art equipment, expert trainers, and results-driven programs.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Start Your Journey</button>
+                    <button class="btn-secondary">Watch Video</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="10000">0</h3>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="50">0</h3>
+                        <p>Expert Trainers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="100">0</h3>
+                        <p>Classes Weekly</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Why Choose Us</span>
+                <h2>About EliteFit</h2>
+                <p>Your transformation begins here</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>25+ Years of Excellence</h3>
+                    <p>At EliteFit, we believe fitness is a journey, not a destination. With cutting-edge facilities and world-class trainers, we provide an environment where everyone can achieve their personal best.</p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <div class="feature-icon">💪</div>
+                            <h4>Personal Training</h4>
+                            <p>One-on-one guidance from certified professionals</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🏋️</div>
+                            <h4>Premium Equipment</h4>
+                            <p>Latest fitness technology and equipment</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">⏰</div>
+                            <h4>24/7 Access</h4>
+                            <p>Work out anytime that fits your schedule</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Services</span>
+                <h2>What We Offer</h2>
+                <p>Everything you need for your fitness journey</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏋️‍♂️</div>
+                    <h3>Weight Training</h3>
+                    <p>Build strength and muscle with our comprehensive weight training programs</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧘</div>
+                    <h3>Yoga & Meditation</h3>
+                    <p>Find your balance and inner peace with our mindfulness classes</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏃</div>
+                    <h3>Cardio Fitness</h3>
+                    <p>Improve your cardiovascular health with our cardio equipment and classes</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🥊</div>
+                    <h3>Boxing & MMA</h3>
+                    <p>Learn self-defense and build confidence in our combat sports classes</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤸</div>
+                    <h3>CrossFit</h3>
+                    <p>High-intensity functional training for maximum results</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💧</div>
+                    <h3>Nutrition Planning</h3>
+                    <p>Custom meal plans designed by certified nutritionists</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Choose Your Plan</span>
+                <h2>Flexible Pricing</h2>
+                <p>Plans that fit your lifestyle and goals</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✅ 24/7 Gym Access</li>
+                        <li>✅ Free Equipment Usage</li>
+                        <li>✅ Locker Access</li>
+                        <li>✅ Free WiFi</li>
+                        <li>❌ Personal Training</li>
+                        <li>❌ Group Classes</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">59</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✅ Everything in Basic</li>
+                        <li>✅ Unlimited Group Classes</li>
+                        <li>✅ Personal Training Sessions</li>
+                        <li>✅ Nutrition Consultation</li>
+                        <li>✅ Guest Pass (2/month)</li>
+                        <li>✅ Progress Tracking App</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Elite</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✅ Everything in Pro</li>
+                        <li>✅ Unlimited Personal Training</li>
+                        <li>✅ 24/7 VIP Lounge Access</li>
+                        <li>✅ Dedicated Trainer</li>
+                        <li>✅ Custom Meal Plans</li>
+                        <li>✅ Priority Class Booking</li>
+                    </ul>
+                    <button class="pricing-btn">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Success Stories</span>
+                <h2>What Our Members Say</h2>
+                <p>Real results from real people</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"EliteFit transformed my life! The trainers are amazing and the community is so supportive. I've lost 30 pounds and gained so much confidence."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Member for 2 years</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Best gym I've ever been to! The equipment is top-notch and the trainers really know their stuff. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Member for 1 year</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"I love the variety of classes and the 24/7 access. The nutrition planning helped me completely transform my lifestyle. Thank you EliteFit!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Member for 3 years</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get In Touch</span>
+                <h2>Contact Us</h2>
+                <p>We're here to help you on your fitness journey</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4>Address</h4>
+                            <p>123 Fitness Avenue, Health City, HC 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>info@elitefit.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕒</div>
+                        <div class="info-text">
+                            <h4>Hours</h4>
+                            <p>24/7 Open</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EliteFit</h3>
+                    <p>Transform your body, transform your life. Join the elite community of fitness enthusiasts.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/SibtainAli92" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Personal Training</a></li>
+                        <li><a href="#">Group Classes</a></li>
+                        <li><a href="#">Nutrition</a></li>
+                        <li><a href="#">24/7 Access</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get special offers and fitness tips</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EliteFit. All rights reserved. | Made with ❤️ for fitness enthusiasts</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
